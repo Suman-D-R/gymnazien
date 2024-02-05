@@ -4,7 +4,6 @@ import { getDocs, collection, updateDoc, doc, onSnapshot  } from 'firebase/fires
 
 interface DashboardProps {
 
-  
 }
 
 interface ScoreData {
