@@ -42,7 +42,7 @@ function UpdateEvents() {
 
 
   return (
-    <div className='text-[60px]'>{scoure}</div>
+    <div className='text-[60px] font-sans'>{scoure}</div>
   )
 }
 

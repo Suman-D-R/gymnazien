@@ -101,10 +101,10 @@ const CreateEvent: React.FC<CreateEventProps> = () => {
         theme="light"
       />
 
-      <div className="w-full flex flex-col items-center my-10">
+      <div className="w-full flex flex-col items-center my-10 font-sans">
         <div className="w-[90%] flex flex-col gap-3">
           <div className="flex flex-col gap-3 p-2 rounded-md w-full">
-            <p className="text-xl font-semibold">Add Players</p>
+            <p className="text-3xl font-sans  font-semibold">Add Players</p>
             <div className="flex p-2 rounded-md gap-3 justify-between border-2 shadow-2xl">
               <p className="w-[5%] p-2 ">{totalPlayers.length + 1}.</p>
               <input
@@ -143,7 +143,7 @@ const CreateEvent: React.FC<CreateEventProps> = () => {
             </div>
             <p className="text-2xl font-semibold">Players</p>
             <div className="shadow-xl rounded-md w-full min-h-[200px]">
-              <div className="flex justify-between w-full p-2 bg-black rounded-t-[5px] text-white font-semibold">
+              <div className="flex justify-between w-full p-2 bg-gray-800 rounded-t-[5px] text-white font-semibold">
                 <p className="w-[5%] ">No.</p>
                 <p className="w-[20%] ">First Name</p>
                 <p className="w-[20%] ">Last Name</p>

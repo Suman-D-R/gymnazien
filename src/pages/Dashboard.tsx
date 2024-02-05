@@ -65,7 +65,7 @@ const Dashboard: React.FC<DashboardProps> = () => {
   return (
     <div className='w-full'>
       <p>score: {scoure}</p>
-      <button onClick={updateFirestoreData} className='bg-black text-white'>Update Firestore Data</button>
+      <button onClick={updateFirestoreData} className='font-sansbg-black text-white'>Update Firestore Data</button>
     </div>
   );
 };
